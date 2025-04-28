@@ -42,7 +42,6 @@
     }
   },
   "socket": false,
-  "initiative": "1d20",
   "grid": {
     "distance": 10,
     "units": "ft"
@@ -50,6 +49,6 @@
   "primaryTokenAttribute": "resources.health",
   "secondaryTokenAttribute": "resources.power",
   "url": "https://github.com/jared-tyler-west/gslo-dev",
-  "manifest": "https://github.com/jared-tyler-west/gslo-dev/system.json",
-  "download": ""
+  "manifest": "https://raw.githubusercontent.com/jared-tyler-west/gslo-dev/refs/heads/main/system.json",
+  "download": "https://raw.githubusercontent.com/jared-tyler-west/gslo-dev/refs/heads/main/gslo.zip"
 }
