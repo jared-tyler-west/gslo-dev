@@ -1,0 +1,17 @@
+{
+  "name": "gslo-simple",
+  "title": "GSLO Simple System",
+  "description": "Barebones system for GSLO hex-grid tactical playtesting.",
+  "version": "0.1.0",
+  "author": "Jared West + ChatGPT",
+  "esmodules": [],
+  "styles": [],
+  "packs": [],
+  "languages": [],
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "11",
+  "system": {
+    "gridDistance": 1,
+    "gridUnits": "hex"
+  }
+}
