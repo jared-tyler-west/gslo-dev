@@ -13,41 +13,10 @@
     "email": "YOUR EMAIL ADDRESS HERE",
     "discord": "YOUR DISCORD USERNAME HERE"
   }],
-  "esmodules": ["mysystem.mjs"],
-  "styles": ["styles/system-styles.css"],
-  "packs": [{
-    "name": "monsters",
-    "label": "My Monsters",
-    "type": "Actor"
-  },
-  {
-    "name": "items",
-    "label": "My Items",
-    "type": "Item"
-  }],
-  "languages": [{
-    "lang": "en",
-    "name": "English",
-    "path": "lang/en.json"
-  }],
-  "documentTypes": {
-    "Actor": {
-      "hero": { "htmlFields": ["background.biography"] },
-      "villain": { "htmlFields": ["background.biography"] },
-      "pawn": {}
-    },
-    "Item": {
-      "weapon": {},
-      "spell": {}
-    }
-  },
-  "socket": false,
   "grid": {
     "distance": 10,
     "units": "ft"
   },
-  "primaryTokenAttribute": "resources.health",
-  "secondaryTokenAttribute": "resources.power",
   "url": "https://github.com/jared-tyler-west/gslo-dev",
   "manifest": "https://raw.githubusercontent.com/jared-tyler-west/gslo-dev/refs/heads/main/system.json",
   "download": "https://github.com/jared-tyler-west/gslo-dev/refs/heads/main/gslo.zip"
