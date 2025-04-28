@@ -1,5 +1,5 @@
 {
-  "name": "gslo-simple",
+  "id": "gslo-simple",
   "title": "GSLO Simple System",
   "description": "Barebones system for GSLO hex-grid tactical playtesting.",
   "version": "0.1.0",
