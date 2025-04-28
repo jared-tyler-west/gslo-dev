@@ -50,5 +50,5 @@
   "secondaryTokenAttribute": "resources.power",
   "url": "https://github.com/jared-tyler-west/gslo-dev",
   "manifest": "https://raw.githubusercontent.com/jared-tyler-west/gslo-dev/refs/heads/main/system.json",
-  "download": "https://github.com/jared-tyler-west/gslo-dev/gslo.zip"
+  "download": "https://github.com/jared-tyler-west/gslo-dev/refs/heads/main/gslo.zip"
 }
