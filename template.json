@@ -1,1 +1,90 @@
-{}
+{
+  "Actor": {
+    "types": ["helldiver", "enemy"],
+    "templates": {
+      "base": {
+        "health": {
+          "value": 1,
+          "min": 0,
+          "max": 999
+        },
+        "armor": {
+          "value": 0,
+          "min": 0,
+          "max": 5
+        },
+        "info": ""
+      }
+    },
+    "helldiver": {
+      "templates": ["base"],
+      "title": "",
+      "tenets": {
+        "freedom": {
+          "value": 0
+        },
+        "dominance": {
+          "value": 0
+        },
+        "faith": {
+          "value": 0
+        },
+        "purity": {
+          "value": 0
+        }
+      }
+    },
+    "enemy": {
+      "templates": ["base"],
+      "type": ["Group", "Single"],
+      "armor_level": 0
+    }
+  },
+  "Item": {
+    "types": ["action", "trait", "weapon", "strategem", "tool", "armor"],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "action": {
+      "templates": ["base"],
+      "cost": 0
+    },
+    "trait": {
+      "templates": ["base"]
+    },
+    "weapon": {
+      "templates": ["base"],
+      "type": ["Primary", "Secondary", "Throwable", "Melee", "Support"],
+      "ammo": {
+        "value": 0,
+        "max_value": 0,
+        "reserve": 0
+      },
+      "damage_type": ["Physical", "Energy", "Arc", "Fire", "Poison", "Psychic"],
+      "range": {
+        "value": 0,
+        "max_value": 0
+      }
+    },
+    "strategem": {
+      "templates": ["base"],
+      "type": ["Eagle", "Orbital", "Support", "Backpack", "Vehicle", "Turret", "Emplacement", "Mission"],
+      "call_in": {
+        "delay": 1,
+        "duration": 0
+      }
+    },
+    "tool": {
+      "templates": ["base"]
+    },
+    "armor": {
+      "templates": ["base"],
+      "armor": {
+        "bonus": 0
+      },
+      "trait": ""
+    }
+  }
+}
