@@ -12,12 +12,23 @@
     "url": "YOUR WEBSITE ADDRESS HERE",
     "email": "YOUR EMAIL ADDRESS HERE",
     "discord": "YOUR DISCORD USERNAME HERE"
-  }],
+    }
+  ],
+  "documentTypes": {
+    "Actor": {
+      "helldiver": {
+        "htmlFields": ["details.biography.value", "details.biography.public"]
+      },
+      "enemy": {
+        "htmlFields": ["details.biography.value", "details.biography.public"]
+      }
+    }
+  },
   "grid": {
     "distance": 10,
     "units": "ft"
   },
   "url": "https://github.com/jared-tyler-west/gslo-dev",
   "manifest": "https://raw.githubusercontent.com/jared-tyler-west/gslo-dev/refs/heads/main/system.json",
-  "download": "https://raw.githubusercontent.com/jared-tyler-west/gslo-dev/refs/heads/main/0.1.0.zip"
+  "download": "https://raw.githubusercontent.com/jared-tyler-west/gslo-dev/refs/heads/main/release/0.1.0.zip"
 }
